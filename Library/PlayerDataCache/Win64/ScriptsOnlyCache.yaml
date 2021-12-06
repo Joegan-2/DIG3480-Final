@@ -886,7 +886,7 @@ ScriptsOnlyBuild:
     className: CinemachineRecomposer
   - hash:
       serializedVersion: 2
-      Hash: 0e51c8f9a88af17d57a1f9f078ff020c
+      Hash: f900682ca4aa2a65359468575df24aed
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RubyController

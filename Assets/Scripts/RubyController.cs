@@ -39,6 +39,7 @@ public class RubyController : MonoBehaviour
     public AudioClip lose;
     public AudioClip main;
     public AudioSource Music;
+    public Text speedDisplay;
 
     // Start is called before the first frame update
     void Start()
@@ -138,6 +139,8 @@ public class RubyController : MonoBehaviour
             }
 
         }
+        
+        speedDisplay.text ="Ruby's Speed: " + speed.ToString();
 
     }
 
